@@ -1,3 +1,23 @@
 .inline{
     display: inline;
 }
+/* if (this.uvi <= 2) return "uvGreen";
+if (this.uvi <= 5) return "uvYellow";
+if (this.uvi <= 7) return "uvOrange";
+if (this.uvi <= 10) return "uvRed";
+if (this.uvi > 10) return "uvPurple"; */
+.uvGreen{
+    background-color: rgb(124, 253, 124);
+}
+.uvYellow{
+    background-color: rgb(255, 255, 73);
+}
+.uvOrange{
+    background-color: rgb(255, 193, 78);
+}
+.uvRed{
+    background-color: rgb(255, 100, 100);
+}
+.uvPurple{
+    background-color: rgb(255, 144, 255);
+}
