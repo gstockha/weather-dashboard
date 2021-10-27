@@ -130,6 +130,7 @@ function makeList(cityKey){
 function loadStuff(){
     let cityKey = JSON.parse(localStorage.getItem("current"));
     if (cityKey != null) getWeather(cityKey,false);
+    else getWeather("Kansas City", false);
     let tempList = JSON.parse(localStorage.getItem("list"));
     if (tempList != null){
         for (let j = 0; j < tempList.length; j++){
