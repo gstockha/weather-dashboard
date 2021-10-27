@@ -1,11 +1,6 @@
 .inline{
     display: inline;
 }
-/* if (this.uvi <= 2) return "uvGreen";
-if (this.uvi <= 5) return "uvYellow";
-if (this.uvi <= 7) return "uvOrange";
-if (this.uvi <= 10) return "uvRed";
-if (this.uvi > 10) return "uvPurple"; */
 .uvGreen{
     background-color: rgb(124, 253, 124);
 }
@@ -31,18 +26,19 @@ if (this.uvi > 10) return "uvPurple"; */
     font-family: 'Rubik', sans-serif;
     color: white;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    margin-left: 10px;
 }
 
 .city-search {
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 21px;
 }
 
 .search-input {
-    width: 50%;
+    width: 80%;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 4px;
 }
 
@@ -52,24 +48,30 @@ if (this.uvi > 10) return "uvPurple"; */
     font-family: 'Rubik', sans-serif;
     border-radius: 4px;
     padding: 5px;
-    width: 50%;
+    width: 80%;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+#city-btn:hover {
+    cursor: pointer;
 }
 
 #current h1, h2, h3 {
     font-family: 'Rubik', sans-serif;
 }
 
-.callout {
-    width: 1400px;
-    right: 180px;
-    border-radius: 5px;
-    border-color: black;
-    height: 300px;
-}
-
 #forecast{
     font-family: 'Rubik', sans-serif;
     margin-left: 300px;
+}
+#right-content{
+    left: 280px;
+}
+#left-content{
+    left: 200px;
+}
+.callout {
+    border-radius: 5px;
+    border-color: black;
+    height: 400px;
 }
