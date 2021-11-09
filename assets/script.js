@@ -9,7 +9,7 @@ let dayList = [];
 function getWeather(cityKey,makeButton){
     cityKey = capitalize(cityKey);
     console.log(cityKey);
-    let cordUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityKey + "&limit=1&appid=" + apiKey;
+    let cordUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityKey + "&limit=1&appid=" + apiKey;
     let latitude = "";
     let longitude = "";
     fetch(cordUrl).then((response)=>{
